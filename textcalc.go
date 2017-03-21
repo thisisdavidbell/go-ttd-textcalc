@@ -1,4 +1,4 @@
-package gottdtextcalc
+package go-ttd-textcalc
 
 func text_to_number(s string) int {
     //TODO: conver s to lowercase

@@ -1,4 +1,4 @@
-package gottdtextcalc
+package go-ttd-textcalc
 
 import (
   "testing" // import the testing capability of go

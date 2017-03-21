@@ -7,8 +7,9 @@ This project is the root repo, and main README, of a tutorial to try out the bui
 # Creating the workspace
 * Create a directory structure with the main top level dir for a workspace, and the path to reflect the repo(s), eg. `go-ttd-text-calc/github.com/thisisdavidbell`
 * clone this repo into that dir to produce dir structure `go-ttd-text-calc/github.com/thisisdavidbell/go-ttd-textcalc`.
-* Now we need to create the tests to check the text_to_number() method works correctly. We of course alreay have the finished file in test_textcalc.go
-
+* Now we need to create the tests to check the text_to_number() method works correctly. We of course already have the finished file in [test_textcalc.go](test_textcalc.go)
+* Now we run the test: `go test github.com/thisisdavidbell/go-ttd-textcalc`
+ **
 
 # Useful links
 * Intro to Go: https://tour.golang.org
