@@ -1,4 +1,4 @@
-package golongttdtextcalc
+package golangttdtextcalctravis
 
 import (
   "testing" // import the testing capability of go

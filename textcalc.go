@@ -1,6 +1,6 @@
-package golongttdtextcalc
+package golangttdtextcalctravis
 
-func text_to_number(s string) int {
+func Text_to_number(s string) int {
     //TODO: conver s to lowercase
   switch s {
   case "zero":
