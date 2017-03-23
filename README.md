@@ -21,5 +21,24 @@ FAIL	github.com/thisisdavidbell/golangttdtextcalc [build failed]
   * You can run with -v to see the t.Logf output.
   * Note: the package is not installed into pkg. Its presumably built every time and thrown away.
 
+# Adding Travis automation
+
+* Enable travis for this git repo:
+  * Log into https://travis-ci.org
+  * find this repo, and enable travis integration.
+* Create a .travis.yml file. See [.travis.yml]().travis.yml)
+  * By default, once the language  (and version?) are specified, travis performs some basic operations, such as running `go test -v ./...` to run any tests, and report the status.
+* commit and push the file to the git repo
+* a build is triggered in Travis: https://travis-ci.org/
+  * After some time the build log is avaiable, showing the tests ran, and passed.
+
+# Performing a Pull Request
+* Create a new branch of the repo: `git checkout -b firstpr`
+* make, commit and push a change to the repo
+* A build for the new branch is triggered, and should run the tests and pass again: https://travis-ci.org/
+* Once it passes, create a PR, another build is run to try out merging the change and seeing if it breaks anything.
+* Merge the PR. Another build is triggered.
+* Try breaking the tests, and committing the change to a new branch.
+
 # Useful links
 * Intro to Go: https://tour.golang.org

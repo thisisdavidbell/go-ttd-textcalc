@@ -31,10 +31,9 @@ func TestFive(t *testing.T) {
   invoke_text_to_number(input, expected_output, t)
 }
 
-/* // example of failing test
+ // example of failing test
 func TestSix(t *testing.T) {
   input := "six"
   expected_output:= 6;
   invoke_text_to_number(input, expected_output, t)
 }
-*/
