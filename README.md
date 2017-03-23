@@ -3,6 +3,7 @@ A tutorial which uses Test Driven Development with Go to build a text based calc
 
 This project is the root repo, and main README, of a tutorial to try out the built in testing capability of Go, using TDD to build a text based calculator. i.e. you can pass in three plus five and you will getback the answer eight. However, for now, lets just write a tool which allows you to enter a string from 0 to 20, and returns it as a number, e.g. text_to_number("three") returns 3.
 
+Later we add Travis integration to auto build and test it on code changes.
 
 # Creating the workspace
 * Create a directory structure with the main top level dir for a workspace, and the path to reflect the repo(s), eg. `go-ttd-text-calc/github.com/thisisdavidbell`
