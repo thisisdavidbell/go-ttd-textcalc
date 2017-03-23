@@ -5,7 +5,7 @@ import (
 )
 
 func invoke_text_to_number(input string, expected_output int, t *testing.T) {
-  output := text_to_number(input)
+  output := Text_to_number(input)
   if  output != expected_output {
     t.Errorf("FAILED: text_to_number(%s) returned %d, expected %d", input, output, expected_output)
   } else {
